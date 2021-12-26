@@ -26,6 +26,6 @@ After running the tests, all four p-values where much greater than .05 meaning t
 ## Summary
 
 1.  **Null Hypothesis:** All of the cars in the same class have the same fuel efficieny. **Alternative Hypothesis:** The cars do not have the same fuel efficiency.
-2.  I would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also I would use the ggplot2 library to show the potential spread between different cars using a boxplot.
-3.  I would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, I would have a top of 500 data points collected for each fuel efficiency type.
+2.  We could use an ANOVA test to complete this analysis for both types of fuel efficiencies and use the ggplot2 library to show the potential spread between different cars using a boxplot.
+3.  We would need the fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there were 10 cars in the class type, we would have 500 data points collected for each type.
 
