@@ -11,16 +11,20 @@ We're charged with analyzing MechaCar's production to help the manufacturing tea
 
 ![Alt text](https://github.com/Goddard310/MechaCar_Statistical_Analysis/blob/main/images/MPG%20p_value.png)
 
-## Summary Stats - Suspension Coils
+## T-test - Suspension Coils
 
-Looking at the total summary, the current variance is approximately 76.23 PSI meaning that is does meet the design specification. When looking at the lots individuals, the first two lotas meet the design specification at a varaince of approximately 1.14 PSI and 10.13 PSI respectfully, but the third lot does not. This is becasue the third lot's variance is approximately 220.01 PSI, exceeding the design specification by more than double the alotted amount. Therefore, the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
+By using a significance level of 95%, meaning that 95% of the time this tests results would be true, I tested to see if any of the four groups had a statistical difference from the mean of 1,500 PSI. After running the tests, all four p-values where much greater than .05 meaning that I would fail to reject that there is a statistical difference between the four groups and the population mean.
 
 ![Alt text](https://github.com/Goddard310/MechaCar_Statistical_Analysis/blob/main/images/PSI%20t_test.png) 
 
 
-## Lot Test
+#### Lot Test
+![Alt text](https://github.com/Goddard310/MechaCar_Statistical_Analysis/blob/main/images/multi-lot%20t_test.png)
 
 
-## Conclusion 
+## Summary
 
+1.  Null Hypothesis is that all of the cars in the same class have the same fuel efficienies. THe Alternative Hypothesis is that they are not all the same.
+2.  I would use an ANOVA test to complete this analysis for both types of fuel efficiencies. Also I would use the ggplot2 library to show the potential spread between different cars using a boxplot.
+3.  I would need fuel efficiency data from 50 individual cars to create a sample size of data for each car in the class type. For example, if there was 10 cars in the class type, I would have a top of 500 data points collected for each fuel efficiency type.
 
