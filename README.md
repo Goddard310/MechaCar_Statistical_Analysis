@@ -18,7 +18,7 @@ By using a significance level of 95%, meaning that 95% of the time this tests re
 ![Alt text](https://github.com/Goddard310/MechaCar_Statistical_Analysis/blob/main/images/PSI%20t_test.png) 
 
 
-#### Lot Test
+### Lot Test
 ![Alt text](https://github.com/Goddard310/MechaCar_Statistical_Analysis/blob/main/images/multi-lot%20t_test.png)
 
 
